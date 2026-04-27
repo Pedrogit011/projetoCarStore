@@ -22,26 +22,59 @@
                 <label for="title">Título do Anúncio <span>*</span></label>
                 <input type="text" name="title" id="title" placeholder="Um título para anunciar seu carro">
             </div>
+
              <div>
                 <label for="preco">Preço<span>*</span></label>
                 <input type="number" name="preco" id="preço" placeholder="Defina o preço">
             </div>
+
              <div>
                 <label for="descricao">Descrição<span>*</span></label>
                 <textarea name="descricao" id="descricao"placeholder="Faça a descrição do seu veículo"></textarea>
             </div>
+
              <div>
                 <label for="modelo">Modelo<span>*</span></label>
                 <input type="text" name="Modelo" id="modelo" placeholder="Modelo do veículo">
             </div>
+
               <div>
                 <label for="Kilometragem">Kilometragem<span>*</span></label>
                 <input type="number" name="Kilometragem" id="Kilometragem" placeholder="Kilometragem do veículo">
             </div>
-             <div>
+
+            <div>
                 <label for="data-de-compra">Data de Compra<span>*</span></label>
                 <input type="date" name="data-de-compra" id="data-de-compra">
             </div>
+
+            <div>
+                <p>Tipo de Câmbio:<span>*</span></p>
+                <input type="radio" name="marcha" id="manual">
+                <label for="manual">Manual</label>
+                <input type="radio" name="marcha" id="auto">
+                <label for="auto">Automático</label>
+            </div>
+
+            <div>
+                  <p>Opcionais</p>
+                  <ul>
+                    <li><input type="checkbox" name="opcional[]" id="airbag" value="airbag"> <label for="airbag">Airbag</label></li> 
+                    <li><input type="checkbox" name="opcional[]" id="alarme" value="alarme"><label for="Alarme">Alarme</label></li>
+                    <li><input type="checkbox" name="opcional[]" id="arcondicionado" value="arcondicionado"><label for="Ar Condicionado">Ar Condicionado</label></li>
+                     <li><input type="checkbox" name="opcional[]" id="cameradere" value="cameradere"><label for="Camera de Ré">Camera de Ré</label></li>
+                  </ul>
+            </div>
+             <div>
+                  <p>Opcionais</p>
+                  <ul>
+                    <li><input type="checkbox" name="opcional[]" id="assistentedepista" value="assitentedepista"> <label for="Assitente de Pista">Assitente de Pista</label></li> 
+                    <li><input type="checkbox" name="opcional[]" id="partidasemchave" value="partidasemchave"><label for="Partida sem Chave">Partida sem Chave</label></li>
+                    <li><input type="checkbox" name="opcional[]" id="integracaocomcelular" value="integracaocomcelular"><label for="Integração com Celular">Integração com Celular</label></li>
+                     <li><input type="checkbox" name="opcional[]" id="bancodecouro" value="bancodecouro"><label for="Banco de Couro">Banco de Couro</label></li>
+                  </ul>
+            </div>
+            
         </form>
       </div>
   </div>  
