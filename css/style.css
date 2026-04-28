@@ -5,9 +5,19 @@
 }
 
 body {
-    background-color: rgb(27, 221, 156);
+    background-color: rgb(245, 175, 224);
 }
 
 h1, h2, h3, h4 , h5, h6 {
     color: rgb(32, 23, 23);
+}
+
+p, label {
+    color: dimgrey;
+}
+
+input {
+    border: none;
+    border-bottom: 1px sandybrown;
+    padding: 10px 0;
 }
