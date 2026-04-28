@@ -37,6 +37,12 @@ textarea {
 }
 
 .cabecalho h3{
-    color:rgb(226, 201, 167)
+    color:rgb(226, 201, 167);
     margin-top: 0;
+}
+
+.form-container {
+    background-color: #ccc;
+    width:60%;
+    margin: 0 auto;
 }
