@@ -45,4 +45,38 @@ textarea {
     background-color: #ccc;
     width:60%;
     margin: 0 auto;
+    position: relative;
+    top: -46px;
+}
+
+.form-hearder {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-hearder p {
+    color: rgb(67, 67, 197);
+    border-bottom: 2px solid rgb(67, 67, 197);
+    width: 100%;
+    text-align:center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    list-style: 45px;
+}
+
+.form-body {
+    paddin: 30px;
+}
+
+.titulo-form {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.campo-obrigatorio {
+    color: rgb(201, 92, 92);
 }
