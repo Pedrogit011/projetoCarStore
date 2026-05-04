@@ -49,12 +49,12 @@ textarea {
     top: -46px;
 }
 
-.form-hearder {
+.form-header {
     border-bottom: 1px solid #dfdfdf;
     height: 45px;
 }
 
-.form-hearder p {
+.form-header p {
     color: rgb(67, 67, 197);
     border-bottom: 2px solid rgb(67, 67, 197);
     width: 100%;
